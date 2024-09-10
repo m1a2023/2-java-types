@@ -4,9 +4,10 @@ public class Task07 {
 
     public static int solution(int n, int m, int k) {
 
-        // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
+        // Done
+        TentCamp tentCamp = new TentCamp(n, m, k);
 
-        return 0;
+        return (int)tentCamp.getQuantityTentsAtCamp();
     }
 
     public static void main(String[] args) {
