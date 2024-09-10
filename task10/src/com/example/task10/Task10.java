@@ -9,7 +9,6 @@ public class Task10 {
         // Функция должна считать значения «не число» NaN (например 0.0/0.0) равными между собой.
         
         return a == b;
-
     }
 
     public static void main(String[] args) {
